@@ -20,7 +20,6 @@ body {
     background: linear-gradient(#C8AAAA, #574964);
     border-radius: 3%;
     box-shadow: -20px 20px 10px #443750;
-    /* border: 1px solid #574964; */
 }
 .main h1 {
     font-weight: bolder;
@@ -102,9 +101,11 @@ textarea:focus {
     background-color: #241a2d;
 }
 button:hover {
-    /* transform: scale(1.05); */
     color: #C8AAAA;
     background-color: #241a2d;
     border: 1px solid #C8AAAA;
     transform: skew(-10deg, 0);
+}
+button:active{
+    transform: scale(0.95);
 }
